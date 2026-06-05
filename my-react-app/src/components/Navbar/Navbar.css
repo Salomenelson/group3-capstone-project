@@ -1,0 +1,32 @@
+.navbar {
+  width: 100vw;
+  background-color: #051540;
+  padding: 14px 20px;
+  box-sizing: border-box;
+
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+
+.logo-img {
+  height: 35px; 
+  width: auto;
+  display: block;
+}
+@media (min-width: 768px) {
+  .navbar {
+    padding: 14px 40px;
+  }
+}
